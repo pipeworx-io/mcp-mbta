@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mbta",
   "title": "Mbta",
   "description": "MBTA MCP — Boston real-time transit via the MBTA v3 API (api-v3.mbta.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/mbta",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mbta",

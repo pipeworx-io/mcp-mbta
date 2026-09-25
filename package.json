@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-mbta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MBTA MCP — Boston real-time transit via the MBTA v3 API (api-v3.mbta.com)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-mbta": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mbta"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-mbta"
+    "url": "git+https://github.com/pipeworx-io/mcp-mbta.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0ae65c37e8a0c564716108b4812f6d4ba9d85e42f0b578249d6b172854db3c50",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
