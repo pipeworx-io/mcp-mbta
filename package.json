@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mbta",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MBTA MCP — Boston real-time transit via the MBTA v3 API (api-v3.mbta.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0ae65c37e8a0c564716108b4812f6d4ba9d85e42f0b578249d6b172854db3c50",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-2525af538ff760bfb18aaef5db7390b05a1a0e0524aab21d0f0fc262c65d6c5a",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
